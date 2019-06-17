@@ -121,7 +121,16 @@
 	.afb{position: absolute;   }
 	.afbb{padding-left: 80px; padding-top: 7400px;z-index:999;   }
 	.ahbbb h3{ width: 490px;font-family: 'S-CoreDream-4Regular'; font-size:22px; text-align: right; line-height: 1.8; display: block;z-index: 1000; }
-
+	.temi{position: absolute;
+			animation: vo 0.4s
+			infinite linear; display: block; z-index: 50; animation-direction:alternate;}
+	@keyframes vo{ 
+	frame{opacity: 0%}
+	to{opacity: 100%} }
+	.dada{width:300px; margin-left:630px; ; padding-top: 2200px;display: block; position: absolute;z-index:1;animation: ko 3s infinite alternate ease-in; perspective: 50px}
+	@keyframes ko{
+		from{}
+		to{transform: rotate3D(0,1,0,360deg)}
 	</style>
 </head>
 
@@ -269,8 +278,8 @@
 	</div>
 	<img src="./baa.gif" style= " padding-top: 5234px; padding-left: 0px;position: absolute; width:600px;  display: block; z-index:1; ">
 	<h4 style=" width:300;margin-top: 5592px; padding-left: 285px;z-index: 2;">드라마_후아유2015</h4>
-	<img src="./laa.jpg" style= " padding-top:5710px; padding-left: 670px;position: absolute; width:450px;  display: block; z-index: 2; ">
-	<img src="./lab.jpg" style= " padding-top:5710px; padding-left: 670px;position: absolute; width:450px;  display: block; z-index: 2; ">
+	<img src="./laa.jpg" class= "temi"  style= " padding-top:5710px; padding-left: 670px;position: absolute; width:450px;  display: block; z-index: 2; ">
+	<img src="./lab.jpg"  style= " padding-top:5710px; padding-left: 670px;position: absolute; width:450px;  display: block; z-index: 2; ">
 	<h4 style="margin-top:6030px; padding-left:805px;z-index: 2;">드라마_드림하이1</h4>
 		</section>
 		<section >
@@ -366,8 +375,8 @@
 	<img src="./r.png" style= "padding-top:1632px; padding-left:150px;position: absolute; width:420px;  display: block; z-index:3; opacity: 50%;  ">		
 	<h4 style="margin-top: 1800px; padding-left: 880px;z-index: 2;">드라마_장난스런 키스</h4>
 	<img src="./ra.png" style= "padding-top:1650px; padding-left:0px;position: absolute; width:230px;  display: block; z-index: 1; opacity: 50%;  ">
-	<img src="./rd.png" style= "padding-top:1592px; padding-left:450px;position: absolute; width:280px;  display: block; z-index:3; opacity: 50%;  ">		
-	<img src="./re.png" style= "padding-top:1892px; padding-left:600px;position: absolute; width:220px;  display: block; z-index:3; opacity: 50%;  ">	
+	<img src="./rd.png" style= "padding-top:1592px; position: absolute; width:280px; padding-left:450px; display: block; z-index:3; opacity: 50%;  ">		
+	<img src="./re.png" class= "dada" style= "padding-top:1892px;position: absolute; width:220px;  display: block; z-index:3; opacity: 50%;  ">	
 	<h4 style="margin-top: 2450px; padding-left: 820px;z-index: 2;">드라마_노다메 칸타빌레</h4>
 		</section>
 	<section class="b" style="position: absolute;">
